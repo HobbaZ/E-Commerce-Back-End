@@ -1,13 +1,13 @@
 # README TEMPLATE
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
-[![Github Commits](https://img.shields.io/github/commit-activity/w/HobbaZ/README-template)](https://github.com/HobbaZ/README-template/commits)
-[![GitHub latest commit](https://img.shields.io/github/last-commit/HobbaZ/README-template)](https://github.com/HobbaZ/README-template/branches)
+[![Github Commits](https://img.shields.io/github/commit-activity/w/HobbaZ/E-Commerce-Back-End)](https://github.com/HobbaZ/E-Commerce-Back-End/commits)
+[![GitHub latest commit](https://img.shields.io/github/last-commit/HobbaZ/E-Commerce-Back-End)](https://github.com/HobbaZ/E-Commerce-Back-End/branches)
 [![GitHub followers](https://img.shields.io/github/followers/HobbaZ.svg)]()
-![GitHub repo size](https://img.shields.io/github/repo-size/HobbaZ/README-template)
-[![GitHub issues](https://img.shields.io/github/issues/HobbaZ/README-template)](https://img.shields.io/github/issues/HobbaZ/README-template)
-![GitHub forks](https://img.shields.io/github/forks/HobbaZ/README-template)
-![GitHub language count](https://img.shields.io/github/languages/count/HobbaZ/README-template)
+![GitHub repo size](https://img.shields.io/github/repo-size/HobbaZ/E-Commerce-Back-End)
+[![GitHub issues](https://img.shields.io/github/issues/HobbaZ/E-Commerce-Back-End)](https://img.shields.io/github/issues/HobbaZ/E-Commerce-Back-End)
+![GitHub forks](https://img.shields.io/github/forks/HobbaZ/E-Commerce-Back-End)
+![GitHub language count](https://img.shields.io/github/languages/count/HobbaZ/E-Commerce-Back-End)
 
 ## Description
 ### Project Aim ###
@@ -20,7 +20,7 @@ Solves the programmer's most gruelling and hated task, documentation.
 Put what skills you learnt or advanced upon here.
 
 ## Deployment
-You can view the [website link](https://github.com/HobbaZ/README-template) here. 
+You can view the [website link](https://github.com/HobbaZ/E-Commerce-Back-End) here. 
 
 
 ## Table of Contents
@@ -73,17 +73,17 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 ## Installation
 You will need: 
-Github, VS Code, Gitbash
+Node.js, MySQL2, Sequelize
 
-1. Click Use this Template
-2. Enter a name for your repo
-3. Git clone new repo to your computer by right clicking SSH link in your repo, then open gitbash and type:
+1. Clone the repo to your computer and open it with VS Code
+2. Install Node.js if not already installed
+4. Create a .env file in the root directory and input your MySQL login details in it
 
-    'git clone' 
-    
-    Then right click next to git clone text and your SSh link will be pasted in for you, hit enter and wait as it compiles
+![Example .env file](./assets/images/env.PNG)
 
-4. Open the repo in your editor software and edit the README to your values
+[MySQL server login guide here](https://www.mysqltutorial.org/install-mysql/)
+
+5. Start the MySQL database server by running mysql -u whatever user you set -p in the Terminal, you'll then be prompted to enter your password, do so and hit enter
 
 ## Features
 - Clickable table of contents
@@ -102,14 +102,9 @@ List tech stack you used to create your project here (e.g. Node.js, Inquirer npm
 You can also contribute by opening a pull request or submitting an issue
 
 ## Acknowledgements
-Put url's of website's that helped you in creating your project here.
-E.g.
 
-[Google Fonts Lalezar](https://fonts.google.com/specimen/Lalezar?category=Display#standard-styles)
+[BelongsTo and has associations](https://sequelize.org/v5/manual/associations.html)
 
-[Shields.io](https://shields.io/)
-
-[Coolers](https://coolors.co/)
 
 ## Testing
 List any unit tests you've created for your project here
