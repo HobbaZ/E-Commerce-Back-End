@@ -21,6 +21,8 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
+
+  //e.g. /api/productss/2 should get the product with id of 2
   try {
     const productData = await Product.findByPk(req.params.id, {
       include: [{ model: Tag }, { model: Category }],
@@ -39,7 +41,7 @@ router.get('/:id', async (req, res) => {
 
 // create new product
 router.post('/', async (req, res) => {
-  const { product_name, price, stock, tagIds } = req.body
+
   /* req.body should look like this...
   
     {
@@ -49,6 +51,12 @@ router.post('/', async (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
+
+    /*In insomnia POST fields have to be in quotes as well:
+    e.g. {
+    "product_name": "Basketball"
+  }*/
+
   Product.create(req.body)
     .then((product) => {
       // if there's product tags, we need to create pairings to bulk create in the ProductTag model
@@ -127,7 +135,7 @@ router.delete('/:id', async (req, res) => {
       return;
     }
 
-    res.status(200).json(productData);
+    res.status(200).json({ message: 'Successfully deleted product'});
   } catch (err) {
     res.status(500).json(err);
   }

@@ -19,6 +19,8 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
+
+  //e.g. /api/tags/2 should get all products in shorts catergory
   try {
     const categoryData = await Category.findByPk(req.params.id, {
       include: [{ model: Product }],

@@ -1,4 +1,4 @@
-# README TEMPLATE
+# E- Commerce Back End 
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 [![Github Commits](https://img.shields.io/github/commit-activity/w/HobbaZ/E-Commerce-Back-End)](https://github.com/HobbaZ/E-Commerce-Back-End/commits)
@@ -104,6 +104,8 @@ You can also contribute by opening a pull request or submitting an issue
 ## Acknowledgements
 
 [BelongsTo and has associations](https://sequelize.org/v5/manual/associations.html)
+
+[Sequalize, Node.js and Express setup guide](https://www.bezkoder.com/node-js-express-sequelize-mysql/)
 
 
 ## Testing
