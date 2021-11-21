@@ -11,16 +11,13 @@
 
 ## Description
 ### Project Aim ###
-Ever needed a professional README layout but didn't know where to start? Use this template to quickly develop a professional README. 
-
-### What Problem Does It Solve ###
-Solves the programmer's most gruelling and hated task, documentation.
+Finish creation of back end for an E-commerce site. Uses express.js to create API routes and Sequelize to interact with a MySQL database. Demonstrates the API routes with Insomnia. 
 
 ### What I Learnt ###
-Put what skills you learnt or advanced upon here.
+How to make CRDUD API routes, use Sequelize in conjuction with MySQL.
 
 ## Deployment
-You can view the [website link](https://github.com/HobbaZ/E-Commerce-Back-End) here. 
+You can view the [walkthrough video here](https://youtu.be/TX5HGjXIMPI). 
 
 
 ## Table of Contents
@@ -73,7 +70,7 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 ## Installation
 You will need: 
-Node.js, MySQL2, Sequelize
+Node.js, MySQL2, Sequelize, Express.js, 
 
 1. Clone the repo to your computer and open it with VS Code
 2. Install Node.js if not already installed
@@ -85,16 +82,18 @@ Node.js, MySQL2, Sequelize
 
 5. Start the MySQL database server by running mysql -u whatever user you set -p in the Terminal, you'll then be prompted to enter your password, do so and hit enter
 
+6. Then type USE ecommerce_db to create the database.
+
+7. Open another Terminal and run npm i and npm start to start the server.
+
 ## Features
-- Clickable table of contents
-- Easily modifiable for more sections, more images, etc
-- Badges
+- Can create, read, update, delete products, categories and ids.
 
 ## Technology
-List tech stack you used to create your project here (e.g. Node.js, Inquirer npm package, Github API)
-- Github
-- 
-- 
+- MySQL
+- Node.js
+- Sequelize
+- Express.js
 
 ## Contributors
 [Zachary Hobba](https://github.com/HobbaZ)
