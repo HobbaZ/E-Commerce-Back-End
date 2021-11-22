@@ -17,7 +17,7 @@ Finish creation of back end for an E-commerce site. Uses express.js to create AP
 How to make CRDUD API routes, use Sequelize in conjuction with MySQL.
 
 ## Deployment
-You can view the [walkthrough video here](https://youtu.be/TX5HGjXIMPI). 
+You can view the [walkthrough video here](https://youtu.be/TX5HGjXIMPI). Code has since been updated to show messages after each successful action.
 
 
 ## Table of Contents
@@ -76,7 +76,7 @@ Node.js, MySQL2, Sequelize, Express.js,
 2. Install Node.js if not already installed
 4. Create a .env file in the root directory and input your MySQL login details in it, instead of DB_HOST we're going to use DB_NAME: ecommerce_db in this project.
 
-![Example .env file](./assets/images/env.PNG)
+![Example .env file](./Assets/images/env.PNG)
 
 [MySQL server login guide here](https://www.mysqltutorial.org/install-mysql/)
 
