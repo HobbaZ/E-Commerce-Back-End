@@ -56,17 +56,18 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 
 ## Screenshots
+
 The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/images/13-orm-homework-demo-01.gif)
+![In Insomnia Core, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./images/13-orm-homework-demo-01.gif)
 
 The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/images/13-orm-homework-demo-02.gif)
+![In Insomnia Core, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./images/13-orm-homework-demo-02.gif)
 
 The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia Core:
 
-![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/images/13-orm-homework-demo-03.gif)
+![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./images/13-orm-homework-demo-03.gif)
 
 ## Installation
 You will need: 
@@ -76,7 +77,7 @@ Node.js, MySQL2, Sequelize, Express.js,
 2. Install Node.js if not already installed
 4. Create a .env file in the root directory and input your MySQL login details in it, instead of DB_HOST we're going to use DB_NAME: ecommerce_db in this project.
 
-![Example .env file](./Assets/images/env.PNG)
+![Example .env file](./images/env.PNG)
 
 [MySQL server login guide here](https://www.mysqltutorial.org/install-mysql/)
 
